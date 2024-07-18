@@ -3,6 +3,8 @@ from django.db import models
 
 # Create your models here.
 class PageVisit(models.Model):
+    """Generating table columns in db"""
+
     # db -> table
     # id -> hidden -> primary key -> autofield -> 1, 2, 3, etc.
     path = models.TextField(blank=True, null=True)  # col
